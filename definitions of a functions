@@ -27,7 +27,7 @@ def even_odd(num):
         print("odd")
 
 def char_check(data):
-    if data in "AEIOAnxious":
+    if data in "AEIOUaeiou":
         print("it is a vowel")
     elif data in "0987654321":
         print("it is digit")
